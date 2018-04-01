@@ -1,0 +1,16 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "Proyecto QUIZ - CORE",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CORE",
+    "Quiz",
+    "node"
+  ],
+  "author": "Clara Andina",
+  "license": "Unlicense"
+}
