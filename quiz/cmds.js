@@ -181,8 +181,9 @@ exports.playCmd = rl => {
     let toBeResolved = [];
     let arrayPreguntas = [];
     arrayPreguntas = model.getAll();
-    for (let i=0;i<.count(); i++) {
-        toBeResolved[i]=i;
+
+    for (let i = 0; i < model.count(); i++) {
+        toBeResolved[i] = i;
     }
 
     const play = () => {
